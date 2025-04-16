@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "title": "FullStack App Mangas",
+    "description": "Aplicación web de mangas que permite agregar, editar y eliminar mangas (CRUD), los cuales se almacenan en una base de datos (SQLite).",
+    "fullDescription": "Aplicación web desarrollada en Angular para el frontend, estilizada con Bootstrap para una interfaz moderna, responsiva y fácil de usar. El backend está construido con Node.js y Express, lo que permite una comunicación fluida entre el cliente y el servidor. La aplicación utiliza una base de datos SQLite, ideal para entornos de desarrollo livianos y eficientes, donde se almacenan todos los datos relacionados con los mangas: título, autor, descripción, género, número de volúmenes y una imagen representativa. Cuenta con funcionalidades completas CRUD (Crear, Leer, Actualizar y Borrar), permitiendo a los usuarios añadir nuevos mangas con su respectiva imagen, visualizar un catálogo completo de mangas, editar la información de los mangas existentes y eliminar mangas del sistema.",
+    "image": "/ProyectoManga.png",
+    "technologies": ["angular", "bootstrap", "nodejs", "express"]
+  },
+  {
+    "id": 2,
+    "title": "Inicio de Sesión",
+    "description": "Aplicación web con autenticación a través de JWT (inicio de sesión y registro). Conexión a una base de datos (MongoDB) para almacenar los usuarios y sus notas.",
+    "fullDescription": "Aplicación web desarrollada con Next.js y estilizada con Tailwind CSS, con backend en Node.js y Express. Utiliza MongoDB como base de datos y permite autenticación segura mediante JWT. Los usuarios pueden iniciar sesión y realizar operaciones CRUD (crear, leer, actualizar y borrar) sobre sus notas personales. Cada acción está protegida mediante validación de token, garantizando acceso seguro y exclusivo a las notas de cada usuario.",
+    "image": "/ProyectoSpace.png",
+    "technologies": [
+      "nextjs",
+      "react",
+      "tailwind",
+      "nodejs",
+      "express",
+      "mongodb"
+    ]
+  }
+]
